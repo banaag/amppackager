@@ -11,6 +11,7 @@ import (
 // snapshot of the library. This should not include transforms not yet
 // snapshotted to a finalized version.
 // The ranges should be non-overlapping and in descending order.
+//
 // Visible for test.
 var SupportedVersions = []*rpb.VersionRange{{Min: 1, Max: 7}}
 
